@@ -6,12 +6,12 @@ try:
     import pypandoc
     long_description = pypandoc.convert('README.md', 'rst')
 except (IOError, ImportError):
-    long_description = open('README.md').read()
+    long_description = open('README.md', encoding='utf-8').read()
 
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
-version = '0.6'
+version = '0.6.1'
 
 setup(
     name='haxor',
