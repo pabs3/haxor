@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 """
 haxor
 Unofficial Python wrapper for official Hacker News API
