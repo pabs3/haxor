@@ -27,5 +27,6 @@ class TestAPIVersion(unittest.TestCase):
         with self.assertRaises(InvalidAPIVersion):
             hn = HackerNews(version='v1')
 
+
 if __name__ == '__main__':
     unittest.main()
