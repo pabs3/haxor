@@ -10,7 +10,6 @@ from __future__ import unicode_literals
 import asyncio
 import datetime
 import json
-import sys
 from urllib.parse import urljoin
 
 import requests
