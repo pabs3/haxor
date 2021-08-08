@@ -11,12 +11,10 @@ except (IOError, ImportError):
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
-with open('version.txt') as f:
-    version = f.read().strip()
-
 setup(
     name='haxor',
-    version=version,
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
     install_requires=requirements,
     author='Avinash Sajjanshetty',
     author_email='a@sajjanshetty.com',
