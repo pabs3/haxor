@@ -5,12 +5,12 @@ Release History
 0.2.2 (2014-10-10)
 ++++++++++++++++++
 
-* bug fix: User's created property 
+* bug fix: User's created property
 
 0.2.1 (2014-10-10)
 ++++++++++++++++++
 
-* bug fix: reprs 
+* bug fix: reprs
 
 0.2.0 (2014-10-10)
 ++++++++++++++++++
